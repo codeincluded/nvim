@@ -41,4 +41,9 @@ return require('packer').startup(function(use)
             'nvim-tree/nvim-web-devicons', -- optional
         },
     }
+    
+    --use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+    use 'simrat39/rust-tools.nvim'
+    use 'nvim-lua/plenary.nvim'
+    use 'mfussenegger/nvim-dap'
 end)
