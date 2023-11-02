@@ -6,6 +6,8 @@ vim.keymap.set('n', '<leader>ps', function()
 end)
 
 require('telescope').setup{
-    file_ignore_patterns = {"node_modules", "target"}
+    defaults = {
+        file_ignore_patterns = {"node_modules", "target"}
+    }
 }
 
