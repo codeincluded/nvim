@@ -163,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/master/.local/share/nvim/site/pack/packer/start/vim-closer",
     url = "https://github.com/rstacruz/vim-closer"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/master/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
