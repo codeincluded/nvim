@@ -35,7 +35,13 @@ require("lazy").setup({
         end,
     },
 
-    { 'rose-pine/neovim', name = 'rose-pine' },
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
+
     {
         "nvim-treesitter/nvim-treesitter",
         build = ":TSUpdate",
