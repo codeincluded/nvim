@@ -81,6 +81,8 @@ require("lazy").setup({
     { 'simrat39/rust-tools.nvim' },
     { 'nvim-lua/plenary.nvim' },
     { 'mfussenegger/nvim-dap' },
-    { 'rstacruz/vim-closer' },
+    -- { 'rstacruz/vim-closer' },
+    { 'jiangmiao/auto-pairs' },
+    { 'vim-endwise' },
     { 'tpope/vim-fugitive' }
 })
