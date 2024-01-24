@@ -80,9 +80,14 @@ require("lazy").setup({
 
     { 'simrat39/rust-tools.nvim' },
     { 'nvim-lua/plenary.nvim' },
-    { 'mfussenegger/nvim-dap' },
-    -- { 'rstacruz/vim-closer' },
     { 'jiangmiao/auto-pairs' },
     { 'vim-endwise' },
-    { 'tpope/vim-fugitive' }
+    { 'tpope/vim-fugitive' },
+
+    -- Debugger
+    { "mfussenegger/nvim-dap" },
+    { "rcarriga/nvim-dap-ui", requires = { 'mfussenegger/nvim-dap' } },
+    { "theHamsta/nvim-dap-virtual-text" },
+    { "nvim-telescope/telescope-dap.nvim" },
+    -- { "rcarriga/cmp-dap" }
 })
