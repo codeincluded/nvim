@@ -83,6 +83,7 @@ require("lazy").setup({
     { 'jiangmiao/auto-pairs' },
     { 'vim-endwise' },
     { 'tpope/vim-fugitive' },
+    { 'lewis6991/gitsigns.nvim' },
 
     -- Debugger
     { "mfussenegger/nvim-dap" },
