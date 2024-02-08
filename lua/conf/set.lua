@@ -29,5 +29,6 @@ vim.api.nvim_set_option("clipboard","unnamedplus")
 
 vim.opt.list = true
 vim.opt.listchars = { tab='›⋅', trail='⋅', space='⋅'}
--- ›
+
+vim.opt.cursorline = true
 
