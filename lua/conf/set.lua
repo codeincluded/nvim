@@ -27,3 +27,7 @@ vim.opt.colorcolumn = "100"
 
 vim.api.nvim_set_option("clipboard","unnamedplus")
 
+vim.opt.list = true
+vim.opt.listchars = { tab='›⋅', trail='⋅', space='⋅'}
+-- ›
+
