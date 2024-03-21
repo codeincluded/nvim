@@ -91,4 +91,5 @@ require("lazy").setup({
     { "theHamsta/nvim-dap-virtual-text" },
     { "nvim-telescope/telescope-dap.nvim" },
     -- { "rcarriga/cmp-dap" }
+    { "leoluz/nvim-dap-go" },
 })
